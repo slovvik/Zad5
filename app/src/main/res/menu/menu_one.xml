@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+    <item
+        android:id="@+id/textRED"
+        android:icon="@drawable/red"
+        android:title="Set text color on RED"
+        app:showAsAction="always|withText"/>
+    <item
+        android:id="@+id/textBLUE"
+        android:title="Set text color on BLUE" />
+    <item
+        android:id="@+id/textGREEN"
+        android:title="Set text color on GREEN"
+        android:icon="@drawable/green"
+        app:showAsAction="ifRoom|withText"/>
+
+    <item android:title="Set text size">
+        <menu>
+            <item
+                android:id="@+id/textSizeSmall"
+                android:title="Set text size to Small" />
+            <item
+                android:id="@+id/textSizeMedium"
+                android:title="Set text size to Medium" />
+            <item
+                android:id="@+id/textSizeLarge"
+                android:title="Set text size to Large" />
+        </menu>
+    </item>
+</menu>

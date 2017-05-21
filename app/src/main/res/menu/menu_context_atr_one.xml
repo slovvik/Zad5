@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/textREDContextMenu"
+        android:title="Set text color on RED" />
+    <item
+        android:id="@+id/textBLUEContextMenu"
+        android:title="Set text color on BLUE" />
+    <item
+        android:id="@+id/textGREENContextMenu"
+        android:title="Set text color on GREEN" />
+</menu>

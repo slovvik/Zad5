@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+    android:id="@+id/textSizeSmallContextMenu"
+    android:title="Set text size to Small" />
+    <item
+        android:id="@+id/textSizeMediumContextMenu"
+        android:title="Set text size to Medium" />
+    <item
+        android:id="@+id/textSizeLargeContextMenu"
+        android:title="Set text size to Large" />
+</menu>
